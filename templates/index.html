@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search Engine</title>
+	<style>
+		body {
+			background-color: #f1f1f1;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		h1 {
+			color: #333;
+			text-align: center;
+			padding: 20px 0;
+		}
+
+		form {
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		label {
+			font-size: 18px;
+			color: #333;
+			margin-right: 10px;
+		}
+
+		input[type="text"] {
+			padding: 10px;
+			font-size: 16px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+		}
+
+		button {
+			padding: 10px 20px;
+			font-size: 16px;
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+
+		button:hover {
+			background-color: #45a049;
+		}
+	</style>
+</head>
+<body>
+	<h1>Search Engine</h1>
+	<form action="/sub" method="POST">
+		<label for="search">Search:</label>
+		<input type="text" id="search" name="search">
+		<button type="submit">Go</button>
+	</form>
+</body>
+</html>
+
